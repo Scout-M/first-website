@@ -2,10 +2,64 @@ body {
     background: #f4f9f9;
   }
 
-  .text {
+  h1 {
       color: #28527a;
       text-align: center;
+      font-family: 'Shippori Mincho B1', serif;
+      
+  }
 
+  h6 {
+    color: #aaaaaa;
+    text-align: center;
+  }
+
+  #first {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .main-container {    
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .main-image {
+    width: 100%;
+  }
+
+  .text { 
+    position: absolute;
+    bottom: 10px;
+    color: #FFFFFF;
+    font-size: 14px;  
+    left: 40px;
+  }
+
+  #middle {
+      width: 100%;
   }
   
+  hr {
+      border-top: 5px dotted;
+      color: #aaaaaa;
+      width: 25%;
+      opacity: 0.3;
+  }
+
+  h2 {
+    color: #28527a;
+    text-align: center;
+  }
   
+  h3 {
+    color: #28527a;
+  }
+
+  .myFace {
+        border-radius: 25%;
+        width: 15%;
+        float: left;
+        padding-right: 15px;
+  }

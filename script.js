@@ -1,3 +1,10 @@
-const h2 = document.createElement('h2');
-h2.textContent = "This content added by JavaScript";
-document.querySelector('body').appendChild(h2);
+
+
+function mouseOver() {
+    document.getElementById("test").style.color = "#ccf2f4";
+
+}
+
+function mouseOut() {
+    document.getElementById("test").style.color = "#28527a";
+}
