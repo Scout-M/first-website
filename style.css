@@ -5,7 +5,7 @@ body {
   h1 {
       color: #28527a;
       text-align: center;
-      font-family: 'Shippori Mincho B1', serif;
+      font-family: 'Montserrat', sans-serif;
       
   }
 
@@ -17,6 +17,7 @@ body {
   #first {
     margin-left: 0px;
     margin-right: 0px;
+    padding-top: 20px;
   }
 
   .main-container {    
@@ -37,8 +38,12 @@ body {
     left: 40px;
   }
 
-  #middle {
+  #main-image-container {
       width: 100%;
+  }
+
+  #about-me {
+      padding-top: 10%;
   }
   
   hr {
@@ -46,20 +51,51 @@ body {
       color: #aaaaaa;
       width: 25%;
       opacity: 0.3;
+      font-family:'Montserrat', sans-serif;
   }
 
   h2 {
     color: #28527a;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
   }
   
   h3 {
     color: #28527a;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .myFace {
-        border-radius: 25%;
+        border-radius: 50%;
         width: 15%;
-        float: left;
+        float: right;
         padding-right: 15px;
   }
+
+  #Work-header {
+      padding-top: 10%;
+      text-align: center;
+  }
+
+  #navbar {
+    background-color: #ccf2f4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5%;
+    opacity: 75%;
+    z-index: 1;
+  }
+
+  #G-Fish {
+    border-radius: 25%;
+  }
+.nav-text {
+  font-family: 'Montserrat', sans-serif;
+  
+}
+  
+
+  
+
+  

@@ -10,28 +10,92 @@
         <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div id="navbar">
+    <a class="nav-text" href="#About-Me">About Me</a>
+    <a class="nav-text" href="#Work-header">Work</a>
+    <a class="nav-text"  href="#volunteerienc-header">Volunteer Experience</a>
+  </div>
 <div id="first">
     <h1 id="test" onmouseover="mouseOver()" onmouseout="mouseOut()"  >A.E. Mangor</h1>
     <h6>A Software Engineering Student at Flatiron</h4>
     <script src="script.js"></script>
 </div>
-<div id ="middle">
+<div id ="main-image-container">
     <div class="main-container">
-       <img class="main-image" src="/Users/amymangor/Documents/Development/code/first-repository/washington-state-hotel.jpeg"
+       <img class="main-image" src="./washington-state-hotel.jpeg"
      alt="Dock leading out to the water">
        <a class="text" href="https://www.alderbrookresort.com/" target="_blank">Alderbrook Resort, Washington State</a>
      </div>
 </div>
 
 <div id="about-me">
-<h2><span>About Me</span></h2>
-   <div class="text-conatiner"><p><img class="myFace" src="/Users/amymangor/Documents/Development/code/first-repository/myFace.jpeg" 
-    alt="Photo of Me">   I am a certified Montessori teacher and environmental educator, but am now 
- a teacher turned student. I am currently a software engineering student at Flatiron.
- I love nature, curriculum development, and problem solving. 
-   </p>
+<h2 id="About-Me"><span>About Me</span></h2>
+   <div class="text-conatiner">
+      <p><img class="myFace" src="./myFace.jpeg" 
+    alt="Photo of Me">   Hello! My name is Amy and I am a software engineering student at Flatiron. Before
+    jumping into the word of programming, I was in Education. As a certified Montessori teacher I worked 
+    in traditional and non-traditional settings as a head teacher, an assistant administrator, and a program developer.
+    That experience led me to work on a team at the Georgia Aquarium that developed and presented educational programs
+    for children. While living abroad I learned Danish while working as a volunteer where I read to and interacted
+    with Danish children. Now I am learning and working with HTML, CSS, and Javascript. 
+      </p>
+   </div>
 </div>
-   
+
+<div id="cv">
+    
+</table>
+<h3 id="Work-header"><strong>Work Experience</strong></h3>
+<table id="work-experience" cellspacing="10">
+  <tr>
+    <td><strong>Dates</strong></td>
+    <td><strong>Work</strong></td>
+    <img id="G-Fish" src="./GFish.jpeg.png" alt="Georgia Aquarium Logo">
+  </tr>
+  <tr>
+    <td>2014-2016</td>
+    <td>Georgia Aquarium - Enviornmental Educator</td>
+  </tr>
+  <tr>
+    <td>2013-2014</td>
+    <td>Georgia Aqurium - Guest Educator</td>
+  <tr>
+    <td>2007-2011</td>
+    <td>White Flint Children's House - Lead Montessori Teacher</td>
+  </tr>
+  <tr>
+    <td>2007-2010</td>
+    <td>White Flint Children's House - Administrative Assistant</td>
+  </tr>
+  <tr>
+    <td>2005-2007</td>
+    <td>Franklin Montessori - Assistant Teacher/Intern</td>
+  </tr>
+</table>
+
+<h3 id="volunteerienc-header"><strong>Volunteer Experience</strong></h3>
+<table  id="volunteer-experience" cellspacing="10">
+  <td><strong>Dates</strong></td>
+  <td><strong>Work</strong></td>
+  <tr>
+    <td>2018-2020</td>
+    <td>Dyssegård Bibliotek - Hellerup, Denmark</td>
+  </tr>
+  <tr>
+    <td>2017-2018</td>
+    <td>International Rescue Commitee - Atlanta, GA</td>
+  </tr>
+  <tr>
+    <td>2011-2014</td>
+    <td>Little Creek Farm Conservancy - Decatur, GA</td>
+  </tr>
+  <tr>
+    <td>2011-2014</td>
+    <td>Stride Ahead, Theraputic Horseback Riding - Decatur, GA</td>
+  </tr>
+</table>
+
+
 </div>
 
 </body>
