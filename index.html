@@ -10,15 +10,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="navbar">
-    <a class="nav-text" href="#About-Me">About Me</a>
+  <nav id="navbar">
+    <a class="nav-text" href="#About-Me-Header">About Me</a>
     <a class="nav-text" href="#Work-header">Work</a>
     <a class="nav-text"  href="#volunteerienc-header">Volunteer Experience</a>
-  </div>
-<div id="first">
-    <h1 id="test" onmouseover="mouseOver()" onmouseout="mouseOut()"  >A.E. Mangor</h1>
-    <h6>A Software Engineering Student at Flatiron</h4>
-    <script src="script.js"></script>
+  </nav>
+<div id="name">
+    <h1 id="test">A.E. Mangor</h1>
+    <h6>A Software Engineering Student at Flatiron</h6>
 </div>
 <div id ="main-image-container">
     <div class="main-container">
@@ -28,72 +27,62 @@
      </div>
 </div>
 
-<div id="about-me">
-<h2 id="About-Me"><span>About Me</span></h2>
+<div id="about-me-container">
+<h2 id="About-Me-Header"><span>About Me</span></h2>
    <div class="text-conatiner">
       <p><img class="myFace" src="./myFace.jpeg" 
     alt="Photo of Me">   Hello! My name is Amy and I am a software engineering student at Flatiron. Before
-    jumping into the word of programming, I was in Education. As a certified Montessori teacher I worked 
-    in traditional and non-traditional settings as a head teacher, an assistant administrator, and a program developer.
-    That experience led me to work on a team at the Georgia Aquarium that developed and presented educational programs
-    for children. While living abroad I learned Danish while working as a volunteer where I read to and interacted
-    with Danish children. Now I am learning and working with HTML, CSS, and Javascript. 
+    jumping into the word of programming, I was in Education. I taught in both formal and informal educational settings. 
+    I enjoy hiking, travel, learning languages, and nature. Growing up near the coast instilled a love for the ocean, though not
+    a love for swimming. I enjoy being on the water, not in it.  I have studied Danish and German. I plan to switch from 
+    Germanic languages to Romance languages by learning Spanish. Right now, however I am concentrating on programming.
+     I am learning and working with HTML, CSS, and Javascript. This website is my very fisrt project 
+    for the Software Engineering Bootcamp. 
       </p>
    </div>
 </div>
 
-<div id="cv">
-    
-</table>
-<h3 id="Work-header"><strong>Work Experience</strong></h3>
-<table id="work-experience" cellspacing="10">
-  <tr>
-    <td><strong>Dates</strong></td>
-    <td><strong>Work</strong></td>
-    <img id="G-Fish" src="./GFish.jpeg.png" alt="Georgia Aquarium Logo">
-  </tr>
-  <tr>
-    <td>2014-2016</td>
-    <td>Georgia Aquarium - Enviornmental Educator</td>
-  </tr>
-  <tr>
-    <td>2013-2014</td>
-    <td>Georgia Aqurium - Guest Educator</td>
-  <tr>
-    <td>2007-2011</td>
-    <td>White Flint Children's House - Lead Montessori Teacher</td>
-  </tr>
-  <tr>
-    <td>2007-2010</td>
-    <td>White Flint Children's House - Administrative Assistant</td>
-  </tr>
-  <tr>
-    <td>2005-2007</td>
-    <td>Franklin Montessori - Assistant Teacher/Intern</td>
-  </tr>
-</table>
 
-<h3 id="volunteerienc-header"><strong>Volunteer Experience</strong></h3>
-<table  id="volunteer-experience" cellspacing="10">
-  <td><strong>Dates</strong></td>
-  <td><strong>Work</strong></td>
-  <tr>
-    <td>2018-2020</td>
-    <td>Dyssegård Bibliotek - Hellerup, Denmark</td>
-  </tr>
-  <tr>
-    <td>2017-2018</td>
-    <td>International Rescue Commitee - Atlanta, GA</td>
-  </tr>
-  <tr>
-    <td>2011-2014</td>
-    <td>Little Creek Farm Conservancy - Decatur, GA</td>
-  </tr>
-  <tr>
-    <td>2011-2014</td>
-    <td>Stride Ahead, Theraputic Horseback Riding - Decatur, GA</td>
-  </tr>
-</table>
+    <h3 id="Work-header"><strong>Work Experience</strong></h3>
+
+
+    <div class="aquarium-container">
+
+      <div class="aquarium-child-logo">
+      <script src="script.js"></script>
+      <img id="G-Fish" onmouseover="setNewImage()" onmouseout="setOldImage()"  src="./GFish.jpeg.png" alt="Georgia Aquarium Logo">
+      </div>
+  
+      <div class="aquarium-child-text">  
+      <p>Working at Georgia Aquarium was an amazing experience. I primarily wrote educational
+         progrmas for preK to 2nd Grade, but taught progrmas through High School. On my morning walk to the office, 
+        I passed penguins and sharks. I learned a lot about marine animals and discovered a passion for sharks. Sharks are
+        incredible creatures. Unfortunately 470 species of shark are on the endangered list. Depsite their intimidating size, 
+        both Great Whites and Whale Sharks are some of the most vulnerable. Understandably, most people fear sharks, but
+        did you know that cows kill more people a year than sharks? 
+      </p>
+      </div>
+    </div>
+
+  <div class="WFCH-container">
+
+    <div class="WFCH-child-text">
+      <p>I was a lead Montessori teacher at White Flint Children's House. My responsibilities included
+      detailed record keeping of each child's progress, parent communication, and making sure everyone had fun.
+      Being a part of a child's early years was an incredible experience and I am lucky to have been a part of this school. 
+      White Flint Children's House has a strong sense of community and celebrates both our similarities and differences.
+      I was also an administrative assistant and helped maintain student records. 
+      </p>
+    </div>
+
+    <div class="WFCH-child-logo">
+      <img id="WFCHlogo" src="./WFCHlogo.jpg" alt="White Flint Children's House">
+    </div>
+
+
+</div>
+  <br>
+<h3 id="volunteer-experience-header"><strong>Volunteer Experience</strong></h3>
 
 
 </div>

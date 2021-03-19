@@ -14,7 +14,7 @@ body {
     text-align: center;
   }
 
-  #first {
+  #name {
     margin-left: 0px;
     margin-right: 0px;
     padding-top: 20px;
@@ -40,10 +40,13 @@ body {
 
   #main-image-container {
       width: 100%;
+      padding-bottom: 10px;
   }
 
-  #about-me {
-      padding-top: 10%;
+  #about-me-container {
+      padding-top: 5px;
+      background-color: white;
+      padding-left: 25px; 
   }
   
   hr {
@@ -70,32 +73,66 @@ body {
         width: 15%;
         float: right;
         padding-right: 15px;
+       
   }
 
   #Work-header {
       padding-top: 10%;
       text-align: center;
+      font-family: 'Montserrat', sans-serif;;
   }
 
   #navbar {
-    background-color: #ccf2f4;
+    background-color:#28527a;
     position: fixed;
     top: 0;
     width: 100%;
     height: 5%;
-    opacity: 75%;
     z-index: 1;
   }
-
-  #G-Fish {
-    border-radius: 25%;
-  }
+ 
 .nav-text {
   font-family: 'Montserrat', sans-serif;
+}
+
+.aquarium-container {
+  display: flex;
+}
+
+.aquarium-child{
+  flex: 1;
+  margin-right: 50;
+}
+
+.aquarium-child:first-child {
+  margin-right: 25px;
   
 }
-  
 
-  
+#volunteer-experience-header {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 100px;
+}
 
+p {
+  font-family:'Montserrat', sans-serif;
+}
+
+.WFCH-container {
+  display: flex;
+  padding-top: 50px;
+}
+
+.WFCH-child{
+  flex: 1;
+  margin-right: 50;
   
+}
+
+.WFCH-child:first-child {
+  margin-right: 25px;
+  
+}
+
+

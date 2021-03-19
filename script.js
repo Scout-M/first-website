@@ -1,10 +1,13 @@
 
 
-function mouseOver() {
-    document.getElementById("test").style.color = "#ccf2f4";
+function setNewImage() {
+    
+document.getElementById("G-Fish").src="./Shark.jpg";
 
 }
 
-function mouseOut() {
-    document.getElementById("test").style.color = "#28527a";
+function setOldImage() {
+
+    document.getElementById("G-Fish").src="./GFish.jpeg.png";
 }
+
