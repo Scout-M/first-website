@@ -1,87 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="javascript/script.js"></script>
     <title>A.E. Mangor</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600&display=swap" rel="stylesheet">
-</head>
-<body>
-  <nav id="navbar">
-    <a class="nav-text" href="#About-Me-Header">About Me</a>
-    <a class="nav-text" href="#Work-header">Work</a>
-    <a class="nav-text"  href="#volunteerienc-header">Volunteer Experience</a>
-  </nav>
-<div id="name">
-    <h1 id="test">A.E. Mangor</h1>
-    <h6>A Software Engineering Student at Flatiron</h6>
-</div>
-<div id ="main-image-container">
-    <div class="main-container">
-       <img class="main-image" src="./washington-state-hotel.jpeg"
-     alt="Dock leading out to the water">
-       <a class="text" href="https://www.alderbrookresort.com/" target="_blank">Alderbrook Resort, Washington State</a>
-     </div>
-</div>
-
-<div id="about-me-container">
-<h2 id="About-Me-Header"><span>About Me</span></h2>
-   <div class="text-conatiner">
-      <p><img class="myFace" src="./myFace.jpeg" 
-    alt="Photo of Me">   Hello! My name is Amy and I am a software engineering student at Flatiron. Before
-    jumping into the word of programming, I was in Education. I taught in both formal and informal educational settings. 
-    I enjoy hiking, travel, learning languages, and nature. Growing up near the coast instilled a love for the ocean, though not
-    a love for swimming. I enjoy being on the water, not in it.  I have studied Danish and German. I plan to switch from 
-    Germanic languages to Romance languages by learning Spanish. Right now, however I am concentrating on programming.
-     I am learning and working with HTML, CSS, and Javascript. This website is my very fisrt project 
-    for the Software Engineering Bootcamp. 
-      </p>
-   </div>
-</div>
-
-
-    <h3 id="Work-header"><strong>Work Experience</strong></h3>
-
-
-    <div class="aquarium-container">
-
-      <div class="aquarium-child-logo">
-      
-      <img id="G-Fish" onmouseover="setNewImage()" onmouseout="setOldImage()"  src="./GFish.jpeg.png" alt="Georgia Aquarium Logo">
+  </head>
+  <body>
+    <nav id="navbar">
+      <a class="nav-text" href="#about-me-header">About Me</a>
+      <a class="nav-text" href="#work-header">Work</a>
+    </nav>
+    <div id="name">
+      <h1>A.E. Mangor</h1>
+      <h6>A Software Engineering Student at Flatiron</h6>
+    </div>
+    <div id="main-image-container">
+      <div class="main-container">
+        <img
+          class="main-image"
+          src="images/washingtonStateHotel.jpg"
+          alt="Dock leading out to the water"
+        />
+        <a class="text" href="https://www.alderbrookresort.com/" target="_blank"
+          >Alderbrook Resort, Washington State</a
+        >
       </div>
-  
-      <div class="aquarium-child-text">  
-      <p>Working at Georgia Aquarium was an amazing experience. I primarily wrote educational
-         progrmas for preK to 2nd Grade, but taught progrmas through High School. On my morning walk to the office, 
-        I passed penguins and sharks. I learned a lot about marine animals and discovered a passion for sharks. Sharks are
-        incredible creatures. Unfortunately 470 species of shark are on the endangered list. Depsite their intimidating size, 
-        both Great Whites and Whale Sharks are some of the most vulnerable. Understandably, most people fear sharks, but
-        did you know that cows kill more people a year than sharks? 
+    </div>
+
+    <div id="about-me-container">
+      <h2 id="about-me-header"><span>About Me</span></h2>
+      <div class="text-conatiner">
+        <p>
+          <img class="myFace" src="images/myFace.jpg" alt="Photo of Me" />
+          Hello! My name is Amy and I am a software engineering student at
+          Flatiron. Before jumping into the word of programming, I was in
+          Education. I taught in both formal and informal educational settings.
+          I enjoy hiking, travel, learning languages, and nature. Growing up
+          near the coast instilled a love for the ocean, though not a love for
+          swimming. I enjoy being on the water, not in it. I have studied Danish
+          and German. I plan to switch from Germanic languages to Romance
+          languages by learning Spanish. Right now, however I am concentrating
+          on programming. I am learning and working with HTML, CSS, and
+          Javascript. This website is my very fisrt project for the Software
+          Engineering Bootcamp.
         </p>
       </div>
     </div>
 
-  <div class="WFCH-container">
+    <h3 id="work-header"><strong>Work Experience</strong></h3>
 
-    <div class="WFCH-child-text">
-      <p>I was a lead Montessori teacher at White Flint Children's House. My responsibilities included
-      detailed record keeping of each child's progress, parent communication, and making sure everyone had fun.
-      Being a part of a child's early years was an incredible experience and I am lucky to have been a part of this school. 
-      White Flint Children's House has a strong sense of community and celebrates both our similarities and differences.
-      I was also an administrative assistant and helped maintain student records. 
-      </p>
+    <div class="aquarium-container">
+      <div class="aquarium-child-logo">
+        <img
+          id="G-Fish"
+          onmouseover="setNewImage()"
+          onmouseout="setOldImage()"
+          src="images/gFish.png"
+          alt="Georgia Aquarium Logo"
+        />
+      </div>
+
+      <div class="aquarium-child-text">
+        <p>
+          Working at Georgia Aquarium was an amazing experience. I primarily
+          wrote educational progrmas for preK to 2nd Grade, but taught progrmas
+          through High School. On my morning walk to the office, I passed
+          penguins and sharks. I learned a lot about marine animals and
+          discovered a passion for sharks. Sharks are incredible creatures.
+          Unfortunately 470 species of shark are on the endangered list. Depsite
+          their intimidating size, both Great Whites and Whale Sharks are some
+          of the most vulnerable. Understandably, most people fear sharks, but
+          did you know that cows kill more people a year than sharks?
+        </p>
+      </div>
     </div>
 
-    <div class="WFCH-child-logo">
-      <img id="WFCHlogo" src="./WFCHlogo.jpg" alt="White Flint Children's House">
+    <div class="wfch-container">
+      <div class="wfch-child-text">
+        <p>
+          I was a lead Montessori teacher at White Flint Children's House. My
+          responsibilities included detailed record keeping of each child's
+          progress, parent communication, and making sure everyone had fun.
+          Being a part of a child's early years was an incredible experience and
+          I am lucky to have been a part of this school. White Flint Children's
+          House has a strong sense of community and celebrates both our
+          similarities and differences. I was also an administrative assistant
+          and helped maintain student records.
+        </p>
+      </div>
+
+      <div class="wfch-child-logo">
+        <img
+          id="wfchLogo"
+          src="images/wfchLogo.jpg"
+          alt="White Flint Children's House"
+        />
+      </div>
     </div>
-
-
-</div>
-  
-</body>
+  </body>
 </html>
