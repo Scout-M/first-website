@@ -19,7 +19,7 @@ h6 {
   padding-top: 20px;
 }
 
-.main-container {
+.slide {
   position: relative;
   width: 100%;
   max-width: 800px;
@@ -30,24 +30,20 @@ h6 {
 }
 
 .text {
-  position: absolute;
-  bottom: 10px;
-  color: #ffffff;
+  position: relative;
+  bottom: 25px;
+  color: #07a197;
   font-size: 14px;
   left: 40px;
 }
 
-#main-image-container {
+.slider-container {
   width: 100%;
   padding-bottom: 10px;
-}
+  position: relative;
+  overflow: hidden;
 
-#about-me-container {
-  padding-top: 5px;
-  background-color: white;
-  padding-left: 25px;
-  padding-bottom: 5px;
-  background-image: linear-gradient(to left, #ccf2f4, #f4f9f9);
+  border: 5px;
 }
 
 h2 {
@@ -63,9 +59,9 @@ h3 {
 
 .myFace {
   border-radius: 50%;
-  width: 15%;
-  float: right;
-  padding-right: 15px;
+  width: 100%;
+  margin-right: 20%;
+  display: none;
 }
 
 #work-header {
@@ -84,11 +80,11 @@ h3 {
 }
 
 a:visited {
-  color: #aaaaaa;
+  color: white;
 }
 .nav-text {
   font-family: "Montserrat", sans-serif;
-  color: #f4f9f9;
+  color: #07a197;
 }
 
 .aquarium-container {
@@ -97,17 +93,10 @@ a:visited {
 
 .aquarium-child {
   flex: 1;
-  margin-right: 50;
 }
 
 .aquarium-child:first-child {
-  margin-right: 25px;
-}
-
-#volunteer-experience-header {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  padding-top: 100px;
+  margin-left: 100px;
 }
 
 p {
@@ -127,4 +116,14 @@ p {
 
 .wfch-child:first-child {
   margin-right: 25px;
+}
+.about-container {
+  background-image: linear-gradient(to left, #ccf2f4, #f4f9f9);
+  display: flex;
+}
+.about-child {
+  flex: 1;
+}
+.about-child:first-child {
+  margin-right: 50px;
 }
